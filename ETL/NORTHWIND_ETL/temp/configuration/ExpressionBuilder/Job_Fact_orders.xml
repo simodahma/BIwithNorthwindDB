@@ -1,0 +1,29 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row2.UnitPrice *  (float)row2.Quantity >1000?&quot;good&quot;:row2.UnitPrice *  (float)row2.Quantity &lt;500?&quot;medium&quot;:&quot;bad&quot;">
+  <variables name="row1.OrderID" value="0" talendType="id_Integer"/>
+  <variables name="row1.CustomerID" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.EmployeeID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.OrderDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row1.RequiredDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row1.ShippedDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row1.ShipVia" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Freight" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row1.ShipName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ShipAddress" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ShipCity" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ShipRegion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ShipPostalCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ShipCountry" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.OrderID" value="0" talendType="id_Integer"/>
+  <variables name="row2.ProductID" value="0" talendType="id_Integer"/>
+  <variables name="row2.UnitPrice" value="0" talendType="id_Float"/>
+  <variables name="row2.Quantity" value="0" talendType="id_Integer"/>
+  <variables name="row2.Discount" value="0" talendType="id_Double"/>
+  <variables name="row2.UnitPrice *  (float)row2.Quantity " value="0" talendType="id_Float"/>
+  <variables name="" value="null" talendType="id_String"/>
+  <variables name="if (row2.UnitPrice *  (float)row2.Quantity >1000)?&quot;good&quot;:&#xD;&#xA;if (row2.UnitPrice *  (float)row2.Quantity &lt;500)?&quot;medium&quot;:&quot;bad&quot; " value="null" talendType="id_String"/>
+  <variables name="if (row2.UnitPrice *  (float)row2.Quantity >1000)?&quot;good&quot;:(&#xD;&#xA;if (row2.UnitPrice *  (float)row2.Quantity &lt;500)?&quot;medium&quot;:&quot;bad&quot; ) " value="null" talendType="id_String"/>
+  <variables name="(row2.UnitPrice *  (float)row2.Quantity >1000)?&quot;good&quot;:(row2.UnitPrice *  (float)row2.Quantity &lt;500)?&quot;medium&quot;:&quot;bad&quot; ) " value="null" talendType="id_String"/>
+  <variables name="row2.UnitPrice *  (float)row2.Quantity >1000?&quot;good&quot;:row2.UnitPrice *  (float)row2.Quantity &lt;500)?&quot;medium&quot;:&quot;bad&quot; " value="null" talendType="id_String"/>
+  <variables name="row2.UnitPrice *  (float)row2.Quantity >1000?&quot;good&quot;:row2.UnitPrice *  (float)row2.Quantity &lt;500?&quot;medium&quot;:&quot;bad&quot; " value="null" talendType="id_String"/>
+</expression:EMFExpression>

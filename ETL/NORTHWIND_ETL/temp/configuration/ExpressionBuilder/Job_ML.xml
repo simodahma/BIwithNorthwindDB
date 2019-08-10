@@ -1,0 +1,71 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row3.UnitPrice*row3.Quantity>1000?&quot;good&quot;:row3.UnitPrice*row3.Quantity&lt;500?&quot;bad&quot;:&quot;medium&quot;">
+  <variables name="row1.OrderID" value="0" talendType="id_Integer"/>
+  <variables name="row1.CustomerID" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.EmployeeID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.OrderDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row1.RequiredDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row1.ShippedDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row1.ShipVia" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Freight" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row1.ShipName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ShipAddress" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ShipCity" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ShipRegion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ShipPostalCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ShipCountry" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.OrderID_1" value="0" talendType="id_Integer"/>
+  <variables name="row2.OrderID" value="0" talendType="id_Integer"/>
+  <variables name="row2.ProductID" value="0" talendType="id_Integer"/>
+  <variables name="row2.UnitPrice" value="0" talendType="id_Float"/>
+  <variables name="row2.Quantity" value="0" talendType="id_Integer"/>
+  <variables name="row2.Discount" value="0" talendType="id_Double"/>
+  <variables name="row3.CustomerID" value="null" talendType="id_String"/>
+  <variables name="row3.CompanyName" value="null" talendType="id_String"/>
+  <variables name="row3.ContactName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.ContactTitle" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Address" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.City" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Region" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.PostalCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Country" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Phone" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Fax" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.UnitPrice*row2.Quantity>1000?&quot;good&quot;:row2.Quantity*row2.UnitPrice&lt;500:&quot;bad&quot;:&quot;medium&quot; " value="null" talendType="id_String"/>
+  <variables name="" value="null" talendType="id_String"/>
+  <variables name="row2.UnitPrice*row2.Quantity>1000?5:row2.Quantity*row2.UnitPrice&lt;500:20:10 " value="0" talendType="id_Integer"/>
+  <variables name="row2.UnitPrice*row2.Quantity>1000?&quot;good&quot;:row2.Quantity*row2.UnitPrice&lt;500?&quot;bad&quot;:&quot;medium&quot; " value="null" talendType="id_String"/>
+  <variables name="row1.CompanyName" value="null" talendType="id_String"/>
+  <variables name="row1.ContactName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ContactTitle" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Address" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.City" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Region" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.PostalCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Country" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Phone" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Fax" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.CustomerID" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.EmployeeID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.OrderDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.RequiredDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.ShippedDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.ShipVia" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.Freight" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row2.ShipName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.ShipAddress" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.ShipCity" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.ShipRegion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.ShipPostalCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.ShipCountry" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.OrderID" value="0" talendType="id_Integer"/>
+  <variables name="row3.ProductID" value="0" talendType="id_Integer"/>
+  <variables name="row3.UnitPrice" value="0" talendType="id_Float"/>
+  <variables name="row3.Quantity" value="0" talendType="id_Integer"/>
+  <variables name="row3.Discount" value="0" talendType="id_Double"/>
+  <variables name="row2.UnitPrice*row2.Quantity>1000?&quot;good&quot;:row2.UnitPrice*row2.Quantity&lt;500:&quot;bad&quot;:&quot;medium&quot; " value="null" talendType="id_String"/>
+  <variables name="row2.UnitPrice*row2.Quantity>1000?5:row2.UnitPrice*row2.Quantity&lt;500:20:10 " value="0" talendType="id_Integer"/>
+  <variables name="row2.UnitPrice*row2.Quantity>1000?&quot;good&quot;:row2.UnitPrice*row2.Quantity&lt;500?&quot;bad&quot;:&quot;medium&quot; " value="null" talendType="id_String"/>
+  <variables name="row2.UnitPrice*row2.Quantity>1000?5:row2.UnitPrice*row2.Quantity&lt;500?20:10 " value="0" talendType="id_Integer"/>
+  <variables name="row3.UnitPrice*row3.Quantity>1000?5:row3.UnitPrice*row3.Quantity&lt;500?20:10 " value="0" talendType="id_Integer"/>
+</expression:EMFExpression>
